@@ -518,7 +518,7 @@ const _routes = [
     meta: __nuxt_page_meta$2,
     alias: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.alias) || [],
     redirect: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.redirect) || void 0,
-    component: () => import("./_nuxt/index.ba21f49e.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index.69453a20.js").then((m) => m.default || m)
   },
   {
     name: (_c = __nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.name) != null ? _c : "about-test",
@@ -528,7 +528,7 @@ const _routes = [
     meta: __nuxt_page_meta$1,
     alias: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.alias) || [],
     redirect: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.redirect) || void 0,
-    component: () => import("./_nuxt/test.072af8ae.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/test.35e69095.js").then((m) => m.default || m)
   },
   {
     name: (_e = __nuxt_page_meta == null ? void 0 : __nuxt_page_meta.name) != null ? _e : "index",
@@ -538,7 +538,7 @@ const _routes = [
     meta: __nuxt_page_meta,
     alias: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.alias) || [],
     redirect: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.redirect) || void 0,
-    component: () => import("./_nuxt/index.4f53ca57.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index.643f9033.js").then((m) => m.default || m)
   }
 ];
 const routerOptions0 = {
@@ -757,7 +757,7 @@ const _wrapIf = (component, props, slots) => {
   return { default: () => props ? h(component, props === true ? {} : props, slots) : h(Fragment, {}, slots) };
 };
 const layouts = {
-  default: () => import("./_nuxt/default.c5322fbb.js").then((m) => m.default || m)
+  default: () => import("./_nuxt/default.5eb6eabc.js").then((m) => m.default || m)
 };
 const LayoutLoader = defineComponent({
   props: {
@@ -934,7 +934,7 @@ const _sfc_main = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const ErrorComponent = defineAsyncComponent(() => import("./_nuxt/error-component.12b1116c.js").then((r) => r.default || r));
+    const ErrorComponent = defineAsyncComponent(() => import("./_nuxt/error-component.20cec46a.js").then((r) => r.default || r));
     const nuxtApp = useNuxtApp();
     nuxtApp.deferHydration();
     provide("_route", useRoute());

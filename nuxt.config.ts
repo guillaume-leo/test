@@ -4,6 +4,6 @@ export default defineNuxtConfig({
     base: '/test/'
   },
   css: [
-    '~/assets/sass/main.scss'
+    'assets/sass/main.scss'
   ]  
 })

@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   router: {
     base: '/nuxt-github-pages/'
   },
-  sass: [
+  css: [
     '~/assets/sass/main.scss'
   ]  
 })

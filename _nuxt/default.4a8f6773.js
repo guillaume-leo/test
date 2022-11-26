@@ -1,0 +1,1 @@
+import{a as t,o,b as n,e as r,r as a,F as _,f as d}from"./entry.62c45469.js";const f={},l={class:"header"};function i(e,s){return o(),n("div",l,"headeeer")}const u=t(f,[["render",i]]),m={},h=d("div",{class:"footer"},"footer",-1);function p(e,s){const c=u;return o(),n(_,null,[r(c),a(e.$slots,"default"),h],64)}const $=t(m,[["render",p]]);export{$ as default};
